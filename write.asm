@@ -1,0 +1,12 @@
+
+	BITS 64
+	GLOBAL	write:function
+
+write:
+	PUSH	RBP
+	MOV	RBP, RSP
+	XOR	RAX, RAX
+	MOV	RAX, 1
+	SYSCALL
+	LEAVE
+		RET

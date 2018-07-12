@@ -1,0 +1,12 @@
+
+	BITS 64
+	GLOBAL read:function
+
+read:
+	PUSH	RBP
+	MOV	RBP, RSP
+	XOR	RAX, RAX
+	MOV	RAX, 0
+	SYSCALL
+	LEAVE
+		RET
