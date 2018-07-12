@@ -1,2 +1,2 @@
 # minilibc-asm
-Some well known C standard library fonctions in assemly language
+Some well-known C standard library functions in assembly language
